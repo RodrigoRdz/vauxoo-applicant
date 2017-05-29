@@ -1,8 +1,3 @@
-"""
-Your module documentation here
-"""
-
-
 class CalculatorClass:
      """
     Your class documentation here
