@@ -1,24 +1,16 @@
 class CalculatorClass:
-     """
-    Your class documentation here
-    """
-    def sum(self,num_list):
-         """
-        Your method documentation here
-        """
-      list = []
-      suma = 0
+      def sum(self,num_list):
+     list = []
+     suma = 0
 
-      for i in range(5):
-       num_list=int(input("ingrese un numero\n"))  
-       list.append(num_list)
+     for i in range(5):
+     num_list=int(input("ingrese un numero\n"))  
+     list.append(num_list)
 
+     for j in list:
+     suma += int(j)
 
-
-      for j in list:
-       suma += int(j)
-
-      print('La suma es:',suma)
+     print('La suma es:',suma)
 
 
 obj = CalculatorClass()
