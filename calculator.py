@@ -3,14 +3,28 @@ Your module documentation here
 """
 
 
-class CalculatorClass(object):
-    """
+class CalculatorClass:
+     """
     Your class documentation here
     """
-
-    def sum(self, num_list):
-        """
+    def sum(self,num_list):
+         """
         Your method documentation here
         """
-        # your sum code here
-        return "not implement yet"  # Remove this dummy line
+      list = []
+      suma = 0
+
+      for i in range(5):
+       num_list=int(input("ingrese un numero\n"))  
+       list.append(num_list)
+
+
+
+      for j in list:
+       suma += int(j)
+
+      print('La suma es:',suma)
+
+
+obj = CalculatorClass()
+print(obj.sum(0))
